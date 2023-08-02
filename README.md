@@ -2,7 +2,7 @@
 Disciplina de Laboratório de Programação do curso Superior de Tecnologia em Redes de Computadores.
 
 # Execução
-Para executar os códigos utilize:
+Para executar o ambiente de desenvolvimento:
 ```shell
-python3 -i <arquivo.py>
+docker run --name python_ide -p 0.0.0.0:8080:8080 -it jppreti/python_ide
 ```
