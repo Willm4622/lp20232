@@ -1,5 +1,7 @@
 FROM ubuntu:latest
+ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR git
+RUN apt install -y apt-transport-https
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt install -y micro bat git git-flow curl python3 pylint

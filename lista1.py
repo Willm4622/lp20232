@@ -3,6 +3,8 @@ Exercícios sobre os comandos básicos em python
 '''
 
 #1. Faça um programa que imprima o seu nome.
+def q01():
+    print('João Paulo Delgado Preti')
 
 #2. Faça um programa que imprima o produto dos valores 30 e 27.
 
@@ -80,3 +82,5 @@ Exercícios sobre os comandos básicos em python
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
 #    necessário também ler o valor da cotação do dólar.
+
+q01()
