@@ -1,0 +1,35 @@
+nota1 = 7
+#print(nota1)
+#print(type(nota1))
+((nota1))
+print(f'nota1 tem valor {nota1} e é do tipo {type(nota1)}') 
+nota2 = 7,3 
+print(f' nota2 tem valor {nota2} e é do tipo {type(nota2)}') 
+aluno = 'maria'
+print(f' nota2 tem valor {nota2} e é do tipo {type(aluno)}') 
+media = (nota1 + nota2) / 2 
+print (f'{aluno} / t(nota1) / {nota2} / t {media}') #/t tabula e /n nova
+
+#operadores aritmeticos basicos
+
+soma = nota1 + nota2 
+subtracao = nota1 - nota2
+resto_divisao = nota1 % nota2 
+
+#exemplo de interação do usuário 
+nome = input('Digite seu nome: ')
+print( f' Olá {nome}. seja bem vindo(a)! ')
+
+#leia dos valores numéricos e apresente o resto da divisão 
+v1 = int(input('valor 1: '))
+v2 = int(input('valor 2: '))
+resto = v1 % v2 
+print( f' {v1} % {v1} = {resto}' )
+
+#leia o valor de um produto e o desconte em reais e apresente o valor final a pagar
+
+v1 = int(input('valor 1: '))
+v2 = int(input('valor 2: '))
+desconto = v1 % v2 
+print( f' {v1} % {v1} = {desconto}' )
+
